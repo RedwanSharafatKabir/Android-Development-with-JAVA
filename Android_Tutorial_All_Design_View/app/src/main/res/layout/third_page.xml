@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".thirdPage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <Button
+            android:id="@+id/dateButtonThirdPageID"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Pick a date"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+
+        <TextView
+            android:id="@+id/textViewThirdPageID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <TimePicker
+            android:id="@+id/TimePickerID1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/showTimeTextID1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <Button
+            android:id="@+id/showTimeButtonID1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:background="#A2B9B6"
+            android:textColor="#000000"
+            android:text="show time"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/NextPageID2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#A2B9B6"
+            android:textColor="#000000"
+            android:text="next"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+</ScrollView>

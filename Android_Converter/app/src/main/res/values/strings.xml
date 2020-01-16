@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android_Converter</string>
+    <string name="about_app">This is a basic android application with length, temperature and weight converter
+        \n\n\n\n Built with Android Studio and Java.
+        \n\n\n\n Instructor:  Md. Jewel Mia
+        \n\n\nDeveloper:\n\n  Redwan Sharafat Kabir, \n Department: CSE, \n Daffodil Internationl University</string>
+</resources>

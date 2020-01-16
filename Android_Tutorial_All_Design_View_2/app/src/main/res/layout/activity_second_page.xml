@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".second_page">
+<!--/////////////////////////////////////////////////////////-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="222dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@drawable/bd_parliament_house" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:text="Parliament House of Bangladesh"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:typeface="serif"/>-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="206dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@drawable/bd_sundarbans" />-->
+<!--    <TextView-->
+<!--        android:layout_width="358dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="Sundarbans of Bangladesh. The largest mangrove forest in the world."-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:typeface="serif" />-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="228dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@drawable/bd_bogalake" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:text="Bogalake"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:typeface="serif"/>-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="212dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@drawable/bd_nafakhum_waterfall" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:text="Nafakhum Waterfall"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:typeface="serif"/>-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="203dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@drawable/bd_royal_bengal_tiger" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:text="Royal Bengal Tiger of Sundarbans"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:typeface="serif"/>-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="204dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@drawable/bd_paharpur" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:text="Paharpur Buddhist Bihar"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:typeface="serif"/>-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="210dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@drawable/bd_bandarban" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:text="Bandarban"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:typeface="serif"/>-->
+<!--///////////////////////////////////////////////////////// -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/outputTextID1"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:typeface="serif"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputTextID2"
+            android:backgroundTint="#0E4961"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="#000000"
+            android:inputType="text"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dataPassButtonID2"
+            android:layout_gravity="center"
+            android:text="Send to first activity"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:backgroundTint="#A86060"/>
+
+        <SearchView
+            android:id="@+id/searchID"
+            android:queryHint="Search country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="#F3F0ED" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9CF3AE">
+            <ListView
+                android:id="@+id/listViewID1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#1ACA94"
+                android:dividerHeight="1dp"
+                android:listSelector="#1ACA94" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

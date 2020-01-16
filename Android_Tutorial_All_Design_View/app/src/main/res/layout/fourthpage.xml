@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".fourthPage"
+    android:weightSum="10.5">
+
+        <Button
+            android:id="@+id/timeButtonfourthPageID"
+            android:layout_weight="1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Pick time"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+
+        <TextView
+            android:id="@+id/textViewFourthPageID1"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/fontID1"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:text="font test 0"
+            />
+        <TextView
+            android:id="@+id/fontID2"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:text="font test 1"
+            />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:id="@+id/imageID"
+            android:src="@mipmap/allinone" />
+
+        <ZoomControls
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/zoomID"/>
+
+        <Button
+            android:id="@+id/exitButtonfourthPageID"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Exit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+
+</LinearLayout>

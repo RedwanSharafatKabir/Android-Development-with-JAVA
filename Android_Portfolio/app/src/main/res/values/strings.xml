@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android_Portfolio</string>
+    <string name="my_name">This is Redwan Sharafat Kabir</string>
+    <string name="about_me_fragment">I am a developer, researcher and JavaScript programmer from Dhaka,
+        Bangladesh. I am passionate to work on android programming.
+        Besides JavaScript, I also work with Java and Angular.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

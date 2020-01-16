@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/seetingID1"
+        android:title="Setting"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/seetingID2"
+        android:title="Share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/seetingID3"
+        android:title="About"
+        app:showAsAction="never" />
+
+</menu>

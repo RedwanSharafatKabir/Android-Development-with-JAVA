@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cw_background_shadow"
+    android:gravity="left"
+    tools:context=".temp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/CtoFID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/cw_button_shadow"
+                android:textStyle="bold"
+                android:text="Celsius  to  Fahrenheit"
+                android:drawableRight="@drawable/ic_playlist_add_check_black_24dp"
+                />
+
+            <Button
+                android:id="@+id/FtoCID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cw_button_shadow"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Fahrenheit  to  Celsius"
+                android:drawableRight="@drawable/ic_playlist_add_check_black_24dp"
+                />
+
+            <EditText
+                android:id="@+id/TempinputID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="150dp"
+                android:textSize="20dp"
+                android:background="@drawable/customize_edittext"
+                android:drawableLeft="@drawable/ic_input_black_24dp"
+                android:inputType="numberDecimal"
+                android:hint="Enter  temperature  in  degree"
+                android:textColorHint="#D3D3CB"
+                />
+
+            <TextView
+                android:id="@+id/TempoutputID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/convertID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cw_button_shadow"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Convert"
+                android:drawableLeft="@drawable/ic_autorenew_black_24dp"
+                />
+
+            <Button
+                android:id="@+id/refreshID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cw_button_shadow"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Refresh"
+                android:drawableLeft="@drawable/ic_refresh_black_24dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:weightSum="6"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        >
+        <ListView
+            android:id="@+id/ListViewID1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#55C5D3"
+            android:listSelector="#CE4C4C"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        >
+
+        <fragment
+            android:id="@+id/fragmentID1"
+            android:name="com.example.android_portfolio.AboutMeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

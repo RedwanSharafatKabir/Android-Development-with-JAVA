@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Android_Tutorial_All_Design_View_3</string>
+
+    <string-array name="country_array">
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Canada</item>
+        <item>Denmark</item>
+        <item>Egypt</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Hunululu</item>
+        <item>Iraq</item>
+        <item>Jordan</item>
+        <item>Kwet</item>
+        <item>Lebanon</item>
+        <item>Maldives</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Peru</item>
+        <item>Qatar</item>
+        <item>Russia</item>
+        <item>Senegal</item>
+        <item>Taiwan</item>
+    </string-array>
+</resources>

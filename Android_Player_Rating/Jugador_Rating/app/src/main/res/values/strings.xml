@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Jugador Rating</string>
+    <string name="alert_title">Exit ?</string>
+    <string name="alert_message">Are you sure you want to turn off this app ?</string>
+    <string name="quote">"' Football is a dream where I never want to wake up from. '"</string>
+    <string-array name="players_array">
+        <item>Eden Hazard</item>
+        <item>Karim Benzema</item>
+        <item>Zlatan Ibrahimovic</item>
+        <item>Marco Reus</item>
+        <item>Totti</item>
+        <item>Sergio Ramos</item>
+        <item>Marcelo</item>
+        <item>Luka Modric</item>
+        <item>Marco Asensio</item>
+        <item>Keylor Navas</item>
+        <item>Iker Casillas</item>
+        <item>Gianluigi Buffon</item>
+        <item>Rakitic</item>
+        <item>Manuel Neuer</item>
+        <item>Mohamed Salah</item>
+        <item>Franck Ribery</item>
+        <item>Kylian Mbappe</item>
+        <item>Lionel Messi</item>
+        <item>Cristiano Ronaldo</item>
+    </string-array>
+
+    <string name="eden">Eden Michael Hazard (born 7 January 1991) is a Belgian professional footballer
+        who plays as a winger or attacking midfielder for Spanish club Real Madrid and captains
+        the Belgium national team.</string>
+    <string name="karim">Karim Mostafa Benzema born 19 December 1987) is a French professional footballer
+        who plays as a striker for Spanish club Real Madrid and the France national team.</string>
+    <string name="zlatan">Zlatan Ibrahimović born 3 October 1981)
+        is a Swedish professional footballer who plays as a striker.</string>
+    <string name="reus">Marco Reus born 31 May 1989) is a German professional footballer
+        who plays as a forward for the Germany national team and Borussia Dortmund,
+        where he is currently serving as the teams captain.</string>
+    <string name="totti">Francesco Totti (born 27 September 1976) is an Italian former professional footballer who
+        played for Roma and the Italy national team primarily as an attacking midfielder or second striker,
+        but could also play as a lone striker or winger.</string>
+    <string name="ramos">Sergio Ramos García (born 30 March 1986) is a Spanish professional footballer
+        who plays for and captains both Real Madrid and the Spanish national team as a centre back. He has also played as a right back.</string>
+    <string name="marcelo">Marcelo Vieira da Silva Júnior (born 12 May 1988), known as Marcelo
+        is a Brazilian professional footballer for Spanish club Real Madrid and the Brazil national team.</string>
+    <string name="luka">Luka Modrić (born 9 September 1985) is a Croatian professional footballer
+        who plays as a midfielder for Spanish club Real Madrid and is the captain of the Croatia national team. He plays mainly as a central midfielder.
+    </string>
+    <string name="asensio">Marco Asensio Willemsen (born 21 January 1996) is a Spanish
+        professional footballer who plays as a winger and attacking midfielder for
+        Real Madrid and the Spain national team.
+    </string>
+    <string name="navas">Keilor Antonio Navas Gamboa (born 15 December 1986), known as Keylor Navas,
+        is a Costa Rican professional footballer who plays as a goalkeeper for French club Paris Saint-Germain and the Costa Rica national team.
+    </string>
+    <string name="iker">Iker Casillas Fernández (born 20 May 1981) is a Spanish professional footballer
+        who plays as a goalkeeper for Portuguese club Porto. Popularly dubbed "San Iker" ("Saint Iker")
+        for his ability to produce spectacular saves, Casillas is widely considered to be one of the greatest goalkeepers of all time.
+    </string>
+    <string name="buffon">Gianluigi Buffon (born 28 January 1978) is an Italian professional footballer
+        who plays as a goalkeeper for Serie A club Juventus. He is widely regarded by players,
+        pundits and managers as one of the greatest goalkeepers of all time.
+    </string>
+    <string name="rakitic">Ivan Rakitić (born 10 March 1988) is a Croatian professional footballer
+        who plays as a central or attacking midfielder for Spanish club Barcelona and is also the vice-captain for the Croatia national team.
+    </string>
+    <string name="neuer">Manuel Peter Neuer (born 27 March 1986) is a German professional footballer
+        who plays as a goalkeeper and captain for both Bayern Munich and the Germany national team.
+    </string>
+    <string name="salah">Mohamed Salah Hamed Mahrous Ghaly (born 15 June 1992) is an Egyptian professional footballer
+        who plays as a forward for Premier League club Liverpool and the Egypt national team.
+    </string>
+    <string name="ribery">Franck Henry Pierre Ribéry (born 7 April 1983) is a French professional footballer
+        who plays for Serie A club Fiorentina.
+    </string>
+    <string name="mbappe">Kylian Mbappé Lottin (born 20 December 1998) is a French professional footballer
+        who plays as a forward for Ligue 1 club Paris Saint-Germain and the France national team.
+    </string>
+    <string name="messi">Lionel Andrés Messi (born 24 June 1987) is an Argentine professional footballer
+        who plays as a forward and captains both Spanish club Barcelona and the Argentina national team.
+        Often considered the best player in the world and widely regarded as one of the greatest players of all time.
+        Messi has won a record six Ballon d_Or awards and a record six European Golden Shoes.
+        He has spent his entire professional career with Barcelona, where he has won a club-record 34 trophies,
+        including ten La Liga titles, four UEFA Champions League titles and six Copas del Rey.
+        A prolific goalscorer and a creative playmaker, Messi holds the records for most goals in La Liga (431),
+        a La Liga and European league season (50), most hat-tricks in La Liga (35) and the UEFA Champions League (8),
+        and most assists in La Liga (173) and the Copa América (13). He has scored over 700 senior career goals for club and country.
+    </string>
+    <string name="ron">Cristiano Ronaldo dos Santos Aveiro (born 5 February 1985) is a Portuguese professional footballer
+        who plays as a forward for Serie A club Juventus and captains the Portugal national team. Often considered the best player in the world
+        and widely regarded as one of the greatest players of all time, Ronaldo has won five Ballon d_Or and four European Golden Shoes,
+        both of which are records for a European player. He has won 29 trophies in his career, including six league titles,
+        five UEFA Champions Leagues, one UEFA European Championship, and one UEFA Nations League. A prolific goalscorer,
+        Ronaldo holds the record for most goals scored in the UEFA Champions League (128) and the joint record of most goals scored in the
+        UEFA European Championship. He has scored over 700 senior career goals for club and country.
+    </string>
+
+</resources>

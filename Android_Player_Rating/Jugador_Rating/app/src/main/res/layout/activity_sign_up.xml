@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/santiago_bernabeu"
+    android:gravity="left"
+    tools:context=".signUp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/emailID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:padding="15dp"
+                android:background="#6F36B99A"
+                android:inputType="text"
+                android:hint=" Enter  your  email"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                />
+
+            <EditText
+                android:id="@+id/signupusernameID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:padding="15dp"
+                android:background="#6F36B99A"
+                android:inputType="text"
+                android:hint=" Enter  your  username"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                />
+
+            <EditText
+                android:id="@+id/signuppassID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:padding="15dp"
+                android:background="#6F36B99A"
+                android:inputType="textPassword"
+                android:hint=" Enter  your  password"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+                />
+
+            <EditText
+                android:id="@+id/signupConfirmpassID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:padding="15dp"
+                android:background="#6F36B99A"
+                android:inputType="textPassword"
+                android:hint=" Confirm  password"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                />
+            <TextView
+                android:id="@+id/passWarnID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:textColor="#CE1212"
+                />
+            <Button
+                android:id="@+id/signUPID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9ECF51"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="Sign up"
+                />
+
+            <ProgressBar
+                android:id="@+id/ProgressBarID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:progressBackgroundTint="#FFFFFF"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

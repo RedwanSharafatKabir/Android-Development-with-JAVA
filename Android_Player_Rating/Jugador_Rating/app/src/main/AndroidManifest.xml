@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jugador_rating">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/football_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/football_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LiveStream1"></activity>
+        <activity android:name=".LiveStream2" />
+        <activity
+            android:name=".ronaldo"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".messi"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".mbappe"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".ribery"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".salah"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".neuer"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".rakitic"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".asensio"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".buffon"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".casillas"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".navas"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".modric"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".marcelo"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".ramos"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".totti"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".reus"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".login"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Eden_Hazard"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Karim_Benzema"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Zlatan_Ibrahimovic"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".signUp"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

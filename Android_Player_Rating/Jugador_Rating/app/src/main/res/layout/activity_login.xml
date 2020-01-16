@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/santiago_bernabeu"
+    android:gravity="left"
+    tools:context=".login">
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+<!--    <SearchView-->
+<!--        android:id="@+id/searchID1"-->
+<!--        android:queryHint="Search players"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:padding="5dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="#6F36B99A" />-->
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#6F36B99A"
+        android:text="Watch  Live  Football"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="17dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/liveFootballID1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:text="*  Live Soccer TV"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="17dp"/>
+        <Button
+            android:id="@+id/liveFootballID2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:background="#00000000"
+            android:text="*  Ronaldo 7"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#6F36B99A"
+        android:layout_gravity="center">
+        <ListView
+            android:id="@+id/listViewID1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:divider="#1ACA94"
+            android:padding="10dp"
+            android:dividerHeight="1dp"
+            android:listSelector="#1ACA94" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/exitID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/customize_login_signup_background"
+            android:padding="10dp"
+            android:text="Exit"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/aboutID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#00000000"
+            android:padding="10dp"
+            android:text="About me"
+            android:textColor="#1ACA94"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/logoutID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/customize_login_signup_background"
+            android:padding="10dp"
+            android:text="Log out"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+<!--    </ScrollView>-->
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/football_background"
+    android:gravity="left"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="110dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/quote"
+                    />
+
+            <Button
+                android:id="@+id/signUpID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:background="@drawable/customize_login_signup_background"
+                android:textColor="#000000"
+                android:text="sign up"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="Already  have  an  account  ?"
+                />
+
+            <EditText
+                android:id="@+id/emailID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#6F36B99A"
+                android:inputType="text"
+                android:hint=" Email / Username"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/ic_people_black_24dp"
+                />
+
+            <EditText
+                android:id="@+id/loginpassID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:padding="15dp"
+                android:background="#6F36B99A"
+                android:inputType="textPassword"
+                android:hint=" Password"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                />
+
+            <Button
+                android:id="@+id/forgotPassID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:text="Forgot  password ?"
+                />
+            <ProgressBar
+                android:id="@+id/ProgressBarID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:progressBackgroundTint="#FFFFFF"
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/loginID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customize_login_signup_background"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="login"
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

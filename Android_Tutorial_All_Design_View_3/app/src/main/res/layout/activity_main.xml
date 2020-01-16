@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity">
+
+<!--        <SearchView-->
+<!--            android:id="@+id/searchID1"-->
+<!--            android:queryHint="Search country"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:padding="5dp"-->
+<!--            android:background="#F3F0ED" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ListView
+                android:id="@+id/listViewID1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#148662"
+                android:dividerHeight="1dp"
+                android:listSelector="#148662" />
+        </LinearLayout>
+
+</LinearLayout>

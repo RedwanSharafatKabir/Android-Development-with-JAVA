@@ -1,0 +1,6 @@
+<resources>
+        <string name="app_name">Android_Tutorial_All_Design_View</string>
+        <string name="title">What do you want to play ?</string>
+        <string name="alert_title">Exit ?</string>
+        <string name="alert_message">Are you sure you want to turn off this app ?</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--        <VideoView-->
+<!--            android:id="@+id/videoViewID"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputTextID1"
+            android:backgroundTint="#0E4961"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:inputType="text"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dataPassButtonID1"
+            android:layout_gravity="center"
+            android:text="Send to second activity"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:backgroundTint="#A86060"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/outputTextID2"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:typeface="serif"/>
+
+        <SearchView
+            android:id="@+id/searchID2"
+            android:queryHint="Search country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="#F3F0ED" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9CF3AE">
+            <ListView
+                android:id="@+id/listViewID2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#1ACA94"
+                android:dividerHeight="1dp"
+                android:listSelector="#1ACA94" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
