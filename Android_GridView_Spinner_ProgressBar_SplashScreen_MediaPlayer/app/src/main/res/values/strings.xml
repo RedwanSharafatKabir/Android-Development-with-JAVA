@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Android_GridView_Spinner_ProgressBar_SplashScreen_MediaPlayer</string>
+
+    <string-array name="country_array">
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Canada</item>
+        <item>Denmark</item>
+        <item>Egypt</item>
+    </string-array>
+
+    <string-array name="population_array">
+        <item>35.53 million</item>
+        <item>164.7 million</item>
+        <item>37.59 million</item>
+        <item>5.603 million</item>
+        <item>97.55 million</item>
+    </string-array>
+
+</resources>

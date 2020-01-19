@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <TextView-->
+<!--        android:id="@+id/spinerViewID"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Afghanistan"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textStyle="bold"-->
+<!--        android:typeface="serif"-->
+<!--        android:textAppearance="?android:attr/textAppearanceLarge"-->
+<!--        android:background="#DD5757"-->
+<!--        android:padding="10dp"-->
+<!--        />-->
+
+    <ImageView
+        android:id="@+id/ImageViewID2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/afghanistan" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/countryNameID2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Afghanistan"
+            android:textAllCaps="false"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+        <TextView
+            android:id="@+id/countryPopulationID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="35.53 million"
+            android:textAllCaps="false"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+</LinearLayout>
