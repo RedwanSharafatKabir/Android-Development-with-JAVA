@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Menu_item_in_Action_Bar</string>
+
+    <string-array name="country_array">
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Canada</item>
+        <item>Denmark</item>
+        <item>Egypt</item>
+        <item>England</item>
+        <item>Barmuda</item>
+        <item>America</item>
+        <item>China</item>
+        <item>Dominica</item>
+    </string-array>
+
+</resources>

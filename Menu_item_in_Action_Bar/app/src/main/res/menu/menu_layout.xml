@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemsID1"
+        android:title="Share"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_share">
+    </item>
+
+    <item
+        android:id="@+id/feedbackID"
+        android:title="Feedback"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_share">
+    </item>
+
+</menu>

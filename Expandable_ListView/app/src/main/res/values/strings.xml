@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Expandable_ListView</string>
+    <string name="sata">AI</string>
+
+<!--    <string-array name="list_header">-->
+<!--        <item>AI</item>-->
+<!--        <item>ASCII</item>-->
+<!--        <item>ALGOL</item>-->
+<!--        <item>AOL</item>-->
+<!--        <item>API</item>-->
+<!--        <item>BASIC</item>-->
+<!--        <item>BIOS</item>-->
+<!--    </string-array>-->
+
+    <string name="ai">
+        AI is the ability of a computer program or a machine to think and learn.
+        It is also a field of study which tries to make computers smart.
+        They work on their own without being encoded with commands.
+        John McCarthy came up with the name Artificial Intelligence in 1955.
+    </string>
+    <string name="ascii">
+        ASCII is a character encoding standard for electronic communication.
+        ASCII codes represent text in computers, telecommunications equipment, and other devices.
+        Most modern character-encoding schemes are based on ASCII, although they support many additional characters.
+    </string>
+    <string name="algol">
+        ALGOL is a family of imperative computer programming languages, originally developed in the mid-1950s,
+        which was the standard method for algorithm description used by the Association for Computing Machinery (ACM) in textbooks and academic sources for more than thirty years.
+    </string>
+    <string name="aol">
+        AOL is an American web portal and online service provider based in New York City.
+    </string>
+    <string name="api">
+        API is an interface or communication protocol between different parts of a computer program intended to simplify the implementation and maintenance of software.
+    </string>
+    <string name="basic">
+        BASIC is a family of general-purpose, high-level programming languages whose design philosophy emphasizes ease of use.
+        The original version was designed by John G. Kemeny and Thomas E. Kurtz and released at Dartmouth College in 1964.
+    </string>
+    <string name="bios">
+        Also known as the System BIOS, ROM BIOS or PC BIOS. It is a firmware used to perform hardware initialization during the booting process (power-on startup), and to provide runtime services for operating systems and programs.
+    </string>
+
+<!--    <string-array name="list_child">-->
+<!--        <item>-->
+<!--            Artificial Intelligence-->
+<!--            \n\nAI is the ability of a computer program or a machine to think and learn.-->
+<!--            It is also a field of study which tries to make computers smart.-->
+<!--            They work on their own without being encoded with commands.-->
+<!--            John McCarthy came up with the name Artificial Intelligence in 1955.-->
+<!--        </item>-->
+<!--        <item>-->
+<!--            American Standard Code for Information Interchange-->
+<!--            \n\nASCII is a character encoding standard for electronic communication.-->
+<!--            ASCII codes represent text in computers, telecommunications equipment, and other devices.-->
+<!--            Most modern character-encoding schemes are based on ASCII, although they support many additional characters.-->
+<!--        </item>-->
+<!--        <item>-->
+<!--            Algorithmic Language-->
+<!--            \n\nALGOL is a family of imperative computer programming languages, originally developed in the mid-1950s,-->
+<!--            which was the standard method for algorithm description used by the Association for Computing Machinery (ACM) in textbooks and academic sources for more than thirty years.-->
+<!--        </item>-->
+<!--        <item>-->
+<!--            America Online-->
+<!--            \n\nAOL is an American web portal and online service provider based in New York City.-->
+<!--        </item>-->
+<!--        <item>-->
+<!--             Application Programming Interface-->
+<!--            \n\nAPI is an interface or communication protocol between different parts of a computer program intended to simplify the implementation and maintenance of software.-->
+<!--        </item>-->
+<!--        <item>-->
+<!--            Beginners All-purpose Symbolic Instruction Code-->
+<!--            \n\nBASIC is a family of general-purpose, high-level programming languages whose design philosophy emphasizes ease of use.-->
+<!--            The original version was designed by John G. Kemeny and Thomas E. Kurtz and released at Dartmouth College in 1964.-->
+<!--        </item>-->
+<!--        <item>-->
+<!--            Basic Input/Output System-->
+<!--            \n\nAlso known as the System BIOS, ROM BIOS or PC BIOS. It is a firmware used to perform hardware initialization during the booting process (power-on startup), and to provide runtime services for operating systems and programs.-->
+<!--        </item>-->
+<!--    </string-array>-->
+
+</resources>
