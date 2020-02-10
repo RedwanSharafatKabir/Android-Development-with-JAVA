@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Card_View</string>
+
+    <string name="add">Address</string>
+    <string name="sch">School</string>
+    <string name="skl">Skills</string>
+    <string name="hobby">Interest</string>
+
+</resources>
