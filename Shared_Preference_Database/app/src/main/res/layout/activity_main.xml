@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutID">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/usernameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:backgroundTint="#17D5D5"
+        android:hint="Username"
+        android:textColorHint="#444141"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/passwordID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:backgroundTint="#17D5D5"
+        android:hint="Password"
+        android:textColorHint="#444141"
+        android:inputType="textPassword"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/saveID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:backgroundTint="#17D5D5"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/loadID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:backgroundTint="#EC232A"
+            android:text="Load"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailsID"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreID"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textAllCaps="false"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/increaseID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:backgroundTint="#2EDF40"
+            android:text="Increase"
+            android:textAllCaps="false"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/decreaseID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:backgroundTint="#B42ABD"
+            android:text="Decrease"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

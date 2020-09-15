@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Shared_Preference_Database'

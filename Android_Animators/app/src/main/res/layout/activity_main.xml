@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1184be"
+        android:onClick="animatedDialog1"
+        android:text="Animated Fall Dialog"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:fontFamily="serif"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#1184be"
+        android:onClick="animatedDialog2"
+        android:text="Animated Material Flip Dialog"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:fontFamily="serif"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1184be"
+        android:onClick="animatedDialog3"
+        android:text="Animated Material Shake Dialog"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:fontFamily="serif"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#1184be"
+        android:onClick="animatedDialog4"
+        android:text="Animated Slide Top Dialog"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:fontFamily="serif"/>
+
+    <ImageView
+        android:id="@+id/sunsetID1"
+        android:layout_width="250dp"
+        android:layout_height="110dp"
+        android:src="@drawable/transition_image"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:scaleType="centerCrop"
+        android:transitionName="example_transition"/>
+
+    <Button
+        android:id="@+id/sharedElementTansitionButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9011BE"
+        android:onClick="sharedElementTansitionButtonMethod"
+        android:text="Transition"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:fontFamily="serif"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
