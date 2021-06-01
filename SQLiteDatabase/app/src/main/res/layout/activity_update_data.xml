@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateData"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/IdUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:hint=" Id"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColorHint="#686666"/>
+
+    <EditText
+        android:id="@+id/NameUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:hint=" Name"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColorHint="#686666"/>
+
+    <EditText
+        android:id="@+id/AgeUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:hint=" Age"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColorHint="#686666"/>
+
+    <EditText
+        android:id="@+id/GenderUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:hint=" Gender"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColorHint="#686666"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/outputUpdatedDataId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:textColor="#000"/>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <Button
+                android:id="@+id/updateDataId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:text="Update Data"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/deleteDataId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#000"
+                android:text="Delete Data"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_below="@+id/updateDataId"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
